@@ -1,0 +1,125 @@
+/* ESTILO GERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif; /*referente a fonte*/
+    font-weight: 100;
+    font-style: normal;
+  }
+
+body{
+    background-color: black; /*plano de fundo*/
+    min-height: 100vh;
+}
+
+.interface{
+    max-width: 1280px; /*interface cabeçalho p texto*/
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+    background-color: aqua;
+    border: 0;
+    border-radius: 30px ;
+    cursor:pointer;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(201, 201, 253);
+    transform: scale(1.05) ;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.08);
+}
+
+h2.titulo{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+h2.titulo span{
+    color: aquamarine;
+}
+/* ESTILO CABEÇALHO MENUS*/
+
+header{
+    padding: 40px 1%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center ;              
+    justify-content:space-between ;
+}
+
+
+header a{
+    color: rgb(238, 237, 255);
+    text-decoration: none;
+    display: inline-block;
+    transition: .1s;
+}
+
+header nav ul{
+    list-style: none ;
+}
+
+header nav ul li{
+    display: inline-block ;
+    padding: 0 40px;
+    font-size: 28px;
+}
+
+/* ESTILO topo CABEÇALHO*/
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: aqua; /*texto sobre mim*/
+    font-size: 30px;
+    text-align: center;
+    line-height: 3.0;
+    margin-top: -50px;
+}
+
+.topo-do-site h2 span{
+    color: rgb(255, 255, 255);  /*ponto final SPAN*/
+    font-size: 30px;
+}
+
+.topo-do-site .txt-topo-site h2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: rgb(255, 255, 255);
+    margin: 40px 0%;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 1.5;
+}

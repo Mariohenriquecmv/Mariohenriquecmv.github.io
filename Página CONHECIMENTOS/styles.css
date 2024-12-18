@@ -1,0 +1,193 @@
+/* ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins-thin { /*referente a fonte*/
+    font-family: "Poppins", sans-serif; 
+    font-weight: 100;
+    font-style: normal;
+  }
+
+body{ /*plano de fundo GERAL*/
+    background-color: black; 
+    min-height: 100vh;
+}
+
+.interface{ /*interface TODOS ELEMENTOS*/
+    max-width: 1280px; 
+    margin: 0 auto;
+}
+
+.flex{ /*ACHAR REAL FUNCIONALIDADE DISSO*/
+    display: flex; 
+}
+
+.btn-contato button{ /*DEFINE CARACTERÍSTICAS DOS BOTÕES*/
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+    background-color: aqua;
+    border: 0;
+    border-radius: 30px ;
+    cursor:pointer;
+}
+
+.btn-contato button:hover{ /*BOTÃO DE CONTATO APRESENTAR SOMBREADO*/
+    box-shadow: 0px 0px 8px rgb(201, 201, 253);
+    transform: scale(1.05) ;
+}
+
+header a:hover{ /* muda de cor texto dos menus - ALTERAR NAS OUTRAS PÁGINAS */
+    color: aquamarine;
+    transform: scale(1.08);
+}
+
+
+
+
+
+
+
+
+/* ESTILO CABEÇALHO MENUS*/
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center ;              
+    justify-content:space-between ;
+}
+
+
+header a{
+    color: rgb(238, 237, 255);
+    text-decoration: none;
+    display: inline-block;
+    transition: .1s;
+}
+
+header nav ul{
+    list-style: none ;
+}
+
+header nav ul li{
+    display: inline-block ;
+    padding: 0 40px;
+    font-size: 28px;
+}
+
+/* ESTILO topo CABEÇALHO*/
+
+section.topo-do-site{
+    padding: 30px 4%
+    
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+}
+
+.topo-do-site .txt-topo-site h1{ /*TEXTO CONHECIMENTOS ADQUIRIDOS E EM ANDAMENTO*/
+    color: rgb(255, 255, 255); 
+    font-size: 30px;
+    text-align: center;
+    line-height: 5.0;
+    margin-top: -100px;
+
+}
+
+
+/* ICONES DE FERRAMENTAS E LINGUAGENS*/
+
+.conhecimentos-imagens{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.conhecimentos-imagens P{
+  margin-top: 100%;
+}
+.conhecimentos-imagens img{
+    display: block;
+    margin: 0 auto;
+  }
+
+.linguagem-pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.linguagem-pro p{ /* referente a escrita geral linguagem de programação*/
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+.linguagem-pro span{
+    color: aqua;
+    text-align: center;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+.linguagem-pro-js, .linguagem-pro-bi{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.linguagem-pro-bi span{
+    color: aqua;
+}
+
+.linguagem-pro-js p{
+    margin-top: 92px;
+}
+.linguagem-pro-js span{
+    line-height: 2;
+}
+.linguagem-pro-bi p{
+    margin-top: 85px;
+}
+.linguagem-pro-bi span{
+    line-height: 2;
+}
+
+.linguagem-pro-html, .linguagem-pro-css img{
+    margin-top: -10px;
+}
+.linguagem-pro-html, .linguagem-pro-css{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.linguagem-pro-html span{
+    color: aqua;
+    line-height: 2;
+}
+
+.linguagem-pro-css span{
+    color: aqua;
+    line-height: 2;
+}
