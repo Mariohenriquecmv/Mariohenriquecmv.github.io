@@ -1,4 +1,6 @@
-/* ESTILO GERAL*/
+/* ESTILO GERAL*/ 
+
+/* *******AJUSTAR LAYOUT CABEÇALHO, TAMANHO DIFERENTE****** */
 
 *{
     margin: 0;
@@ -58,7 +60,7 @@ h2.titulo span{
 /* ESTILO CABEÇALHO MENUS*/
 
 header{
-    padding: 40px 1%;
+    padding: 40px 4%;
 }
 
 header > .interface{
