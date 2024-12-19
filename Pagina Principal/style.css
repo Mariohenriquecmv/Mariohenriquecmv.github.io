@@ -171,3 +171,8 @@ section.especialidades .flex{
     font-size: 28px;
     margin: 15px 0;
 }
+
+.especialidade-box a{
+    text-decoration: none;
+    color: white;
+}
