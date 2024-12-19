@@ -42,7 +42,7 @@ body{ /*plano de fundo GERAL*/
 }
 
 header a:hover{ /* muda de cor texto dos menus - ALTERAR NAS OUTRAS PÁGINAS */
-    color: aquamarine;
+    color: aqua;
     transform: scale(1.08);
 }
 
