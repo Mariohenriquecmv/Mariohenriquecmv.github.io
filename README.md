@@ -1,4 +1,4 @@
-Editando página WEB para apresentação de perfil profissional e portifólio de projetos e estudos. 
+Editando página WEB para apresentação de perfil profissional e portifólio de projetos e estudos. (versão Desktop)
 
 Link da página via github pages - https://mariohenriquecmv.github.io/
 
