@@ -6,4 +6,5 @@ Ações a serem realizadas:
 
 - Necessário ajustar para versão mobile
 - Adicionar interatividade em contato
-- Adiconar link/interatividade botões em Portifólio
+- Adiconar link/interatividade botões em Projetos
+- Editar página de projetos (remove descriptions)
