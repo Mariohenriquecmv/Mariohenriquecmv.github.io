@@ -134,14 +134,14 @@ section.topo-do-site .flex{
 }
 
 .linguagem-pro p{ /* referente a escrita geral linguagem de programação*/
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 20px;
    
 }
 
 .linguagem-pro span{
-    color: aqua;
+    color: rgb(0, 0, 0);
     text-align: center;
     text-align: center;
     line-height: 2;
@@ -150,14 +150,14 @@ section.topo-do-site .flex{
 
 
 .linguagem-pro-js, .linguagem-pro-bi{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-align: center;
     
 }
 
 .linguagem-pro-bi span{
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 
 .linguagem-pro-js p{
@@ -177,17 +177,17 @@ section.topo-do-site .flex{
     margin-top: -10px;
 }
 .linguagem-pro-html, .linguagem-pro-css{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-align: center;
 }
 
 .linguagem-pro-html span{
-    color: aqua;
+    color: rgb(0, 0, 0);
     line-height: 2;
 }
 
 .linguagem-pro-css span{
-    color: aqua;
+    color: rgb(1, 0, 0);
     line-height: 2;
 }
