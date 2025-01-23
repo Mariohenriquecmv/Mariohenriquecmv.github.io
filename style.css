@@ -9,7 +9,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
+}
 
 body{
     background-color: black;
@@ -25,7 +25,7 @@ body{
     display: flex;
 }
 
-.btn-contato button{
+.btn-contato1 button, .btn-contato2 button{ /*Classe ajustada para os 2 botoes se comportarem distintamente */
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -34,9 +34,10 @@ body{
     border: 0;
     border-radius: 30px ;
     cursor:pointer;
+    
 }
 
-.btn-contato button:hover{
+.btn-contato1 button:hover, .btn-contato2 button:hover{
     box-shadow: 0px 0px 8px rgb(201, 201, 253);
     transform: scale(1.05) ;
 }
@@ -82,6 +83,7 @@ header nav ul li{
     display: inline-block ;
     padding: 0 40px;
     font-size: 28px;
+    
 }
 
 
@@ -175,4 +177,131 @@ section.especialidades .flex{
 .especialidade-box a{
     text-decoration: none;
     color: white;
+}
+
+/* RESPONSIVIDADE */
+
+/* Telas pequenas - Smartphones (até 480px) */
+@media (max-width: 480px) {
+    header nav ul li {
+        padding: 0 10px;
+        font-size: 18px;
+    }
+
+    .btn-contato{
+        
+        font-size: 14px;
+        padding: 8px 20px;
+        
+    }
+    .btn-contato a{
+        margin-top: 20px;
+        
+
+    }
+    .topo-do-site .txt-topo-site p {
+        font-size: 16px;
+    }
+
+    section.especialidades .flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Tablets em geral (até 768px) */
+@media (max-width: 768px) {
+    header > .interface {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 12px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    
+    .especialidades .especialidade-box {
+        padding: 20px;
+    }
+}
+
+/* Telas maiores (a partir de 1024px) */
+@media (min-width: 1024px) {
+    .interface {
+        max-width: 1280px;
+    }
+
+    section.especialidades .flex {
+        gap: 80px;
+    }
+
+    .topo-do-site h1 span {
+        font-size: 60px;
+    }
+}
+
+/* Intervalo entre 390px e 932px */
+@media (min-width: 390px) and (max-width: 932px) {
+    header nav ul li {
+        padding: 0 20px;
+        font-size: 24px;
+    }
+
+    .menu-desktop{
+        margin-top: 25px;
+    }
+
+/*Responsividade original com 2 botões. comentado para testar apenas com bt2*/
+
+    /*.btn-contato1 .bt1 {
+        font-size: 16px;
+        padding: 10px 30px;
+        border-radius: 0;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45vh;
+        
+        
+    }*/ 
+
+.btn-contato1 .bt1{ 
+    display: none;
+}
+
+.btn-contato2 .bt2 {
+        font-size: 16px;
+        padding: 10px 30px;
+        border-radius: 0;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45vh;
+        
+        
+    }
+
+    .topo-do-site .txt-topo-site p {
+        font-size: 18px;
+    }
+
+    .txt-topo-site{
+        margin-top: -50px;
+    }
+
+    section.especialidades .flex {
+        gap: 30px;
+    }
 }
