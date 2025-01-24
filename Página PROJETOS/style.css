@@ -118,12 +118,14 @@ section.topo-do-site .flex{
 }
 
 .conhecimentos-imagens P{
-  margin-top: 100%;
+    margin-top: 100%;
 }
+
+
 .conhecimentos-imagens img{
     display: block;
     margin: 0 auto;
-  }
+}
 
 .linguagem-pro{
     display: flex;
@@ -133,11 +135,13 @@ section.topo-do-site .flex{
     
 }
 
+
 .linguagem-pro p{ /* referente a escrita geral linguagem de programação*/
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 20px;
-   
+    text-decoration: none;
+
 }
 
 .linguagem-pro span{
@@ -156,8 +160,25 @@ section.topo-do-site .flex{
     
 }
 
+.linguagem-pro-js img:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 6px rgb(164, 163, 163);
+    border-radius: 10px;
+    transition: .2s;
+
+}
+
+a {
+    color: rgb(0, 0, 0); /* Cor fixa para todos os links */
+    text-decoration: none; /* Remove o sublinhado */
+    
+    
+}
+
+
 .linguagem-pro-bi span{
     color: rgb(0, 0, 0);
+    
 }
 
 .linguagem-pro-js p{
