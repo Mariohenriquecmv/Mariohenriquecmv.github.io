@@ -215,11 +215,9 @@ a {
 
 /*Responsividade*/
 
-@media (min-width: 390px) and (max-width: 932px) {
-a {
-    color: rgb(0, 0, 0); /* Cor fixa para todos os links */
-    text-decoration: none; /* Remove o sublinhado */
-    
-    
-}
+@media (max-width: 932px) {
+    a {
+        text-decoration: none !important; /* Garante que o sublinhado será removido */
+        color: none; /* Cor do link */
+    }
 }
