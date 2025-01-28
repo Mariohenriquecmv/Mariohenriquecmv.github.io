@@ -4,12 +4,12 @@ Link da página via github pages - https://mariohenriquecmv.github.io/
 
 Ações a serem realizadas: 
 
-- Atualizar página principal - Devops
-- __Adicionar segurança rel="noopener noreferrer"__
-- __Atualizar Javascripts para concluído__
-- Adicionar FastApi
-- __Anexar página calculadora JS__
+- __Atualizar página principal - Devops__
+- Adicionar segurança rel="noopener noreferrer" __Adicionado__
+- __Atualizar Javascripts para concluído__ 
+- __Adicionar FastApi__
+- Anexar página calculadora JS __Adicionado__
 - Necessário ajustar responsividade para versão mobile (Em curso)
-- __Adicionar interatividade em contato (js)__
-- Adiconar link/interatividade botões em Projetos
-- __Editar página de projetos (remove descriptions)__
+- __Adicionar interatividade em contato (js)__ __Rever__
+- Adiconar link/interatividade botões em Projetos (Em curso)
+- Editar página de projetos (remove descriptions) __Removido__
