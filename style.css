@@ -25,6 +25,8 @@ body{
     display: flex;
 }
 
+/*BOTOES*/
+
 .btn-contato1 button, .btn-contato2 button{ /*Classe ajustada para os 2 botoes se comportarem distintamente */
     padding: 10px 40px;
     font-size: 18px;
@@ -46,6 +48,116 @@ header a:hover{
     color: aqua;
     transform: scale(1.08);
 }
+
+
+/* Estilo do modal */
+.modal {
+    display: none; /* Inicialmente escondido */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: rgba(21, 210, 232, 0.4); /* Cor de fundo escura */
+}
+
+/* Estilo do conteúdo do modal */
+.modal-content {
+    background-color: #ffffff;
+    margin: 5% auto;
+    padding: 2%;
+    border: 1px solid #888;
+    width: 50%; /* Ajuste o tamanho conforme necessário */
+}
+
+/* Estilo do botão de fechar (X) */
+.close {
+    color: #b40303;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+/* MODAL - FORMULÁRIO */
+
+/* Estilo do modal */
+.modal {
+    display: none; /* Inicialmente escondido */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo escura */
+}
+
+/* Estilo do conteúdo do modal */
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* AjustAR o tamanho  necessário */
+    position: relative;
+}
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+/* Novo estilo para o texto "Mensagem:" */
+.modal-content .label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo do campo de texto */
+.modal-content textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px; /* Espaçamento entre o campo de texto e o título */
+}
+
+/* Estilo de envio do formulário, se necessário */
+.modal-content button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #45a049;
+}
+
+
+/**/
+
 
 h2.titulo{
     color: white;
@@ -305,3 +417,5 @@ section.especialidades .flex{
         gap: 30px;
     }
 }
+
+
