@@ -9,7 +9,7 @@
     font-family: "Poppins", sans-serif; 
     font-weight: 100;
     font-style: normal;
-  }
+}
 
 body{ /*plano de fundo GERAL*/
     background-color: black; 
@@ -25,7 +25,7 @@ body{ /*plano de fundo GERAL*/
     display: flex; 
 }
 
-.btn-contato button{ /*DEFINE CARACTERÍSTICAS DOS BOTÕES*/
+.btn-contato1 button{ /*DEFINE CARACTERÍSTICAS DOS BOTÕES*/
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -36,7 +36,21 @@ body{ /*plano de fundo GERAL*/
     cursor:pointer;
 }
 
-.btn-contato button:hover{ /*BOTÃO DE CONTATO APRESENTAR SOMBREADO*/
+.btn-contato2 button{ /*DEFINE CARACTERÍSTICAS DOS BOTÕES*/
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+    background-color: aqua;
+    border: 0;
+    border-radius: 30px ;
+    cursor:pointer;
+}
+
+
+
+.btn-contato1 button:hover,
+.btn-contato2 button:hover{ /*BOTÃO DE CONTATO APRESENTAR SOMBREADO*/
     box-shadow: 0px 0px 8px rgb(201, 201, 253);
     transform: scale(1.05) ;
 }
@@ -49,17 +63,13 @@ header a:hover{ /* muda de cor texto dos menus - ALTERAR NAS OUTRAS PÁGINAS */
 
 
 
-
-
-
-
 /* ESTILO CABEÇALHO MENUS*/
 
 header{
     padding: 40px 4%;
 }
 
-header > .interface{
+header .interface{
     display: flex;
     align-items: center ;              
     justify-content:space-between ;
@@ -74,6 +84,10 @@ header a{
 }
 
 header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
     list-style: none ;
 }
 
@@ -216,9 +230,61 @@ a {
 
 /*Responsividade*/
 
-@media (max-width: 932px) {
+
+/* Intervalo entre 390px e 932px */
+@media (min-width: 360px) and (max-width: 932px) {
+    header nav ul li {
+        padding: 0 20px;
+        font-size: 30px;
+    }
+
+    .menu-desktop{ /*JUSTANDO O MENU DE NAVEGAÇÃO*/
+        margin-top: 25px;
+    }
+
     a {
         text-decoration: none !important; /* Garante que o sublinhado será removido */
         color: none; /* Cor do link */
+    }
+
+    .conhecimentos-imagens{
+    display: flex;
+    flex-wrap: wrap;  /* Permite a quebra de linha */
+    justify-content: center; /* Centraliza as colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    max-width: 100%; /* Evita que os elementos ultrapassem a tela */
+    }
+
+    .linguagem-pro-js {
+        margin-left: -5%;
+    }
+
+    .interface{
+        display:grid
+
+    }
+    .topo-do-site{
+        display: flex;
+        max-width: 932px;
+        margin: 0%;
+        align-items: center;
+        
+    }
+
+    .txt-topo-site,h1{ /*TEXTO PROJETOS*/
+        margin-top: 10%;
+        align-items: center;
+    }
+
+    .flex{
+        margin-left: 0%;
+        align-items: center;
+    }
+
+    .btn-contato1{
+        display: none;
+    }
+    .btn-contato2{
+        text-align: center;
     }
 }

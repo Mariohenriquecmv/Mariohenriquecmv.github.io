@@ -9,7 +9,7 @@
     font-family: "Poppins", sans-serif; 
     font-weight: 100;
     font-style: normal;
-  }
+}
 
 body{ /*plano de fundo GERAL*/
     background-color: black; 
@@ -25,7 +25,7 @@ body{ /*plano de fundo GERAL*/
     display: flex; 
 }
 
-.btn-contato button{ /*DEFINE CARACTERÍSTICAS DOS BOTÕES*/
+.btn-contato1 button,.btn-contato2 button{ /*DEFINE CARACTERÍSTICAS DOS BOTÕES*/
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -36,7 +36,7 @@ body{ /*plano de fundo GERAL*/
     cursor:pointer;
 }
 
-.btn-contato button:hover{ /*BOTÃO DE CONTATO APRESENTAR SOMBREADO*/
+.btn-contato1 button:hover, .btn-contato2 button:hover{ /*BOTÃO DE CONTATO APRESENTAR SOMBREADO*/
     box-shadow: 0px 0px 8px rgb(201, 201, 253);
     transform: scale(1.05) ;
 }
@@ -45,11 +45,6 @@ header a:hover{ /* muda de cor texto dos menus - ALTERAR NAS OUTRAS PÁGINAS */
     color: aqua;
     transform: scale(1.08);
 }
-
-
-
-
-
 
 
 
@@ -118,12 +113,12 @@ section.topo-do-site .flex{
 }
 
 .conhecimentos-imagens P{
-  margin-top: 100%;
+margin-top: 100%;
 }
 .conhecimentos-imagens img{
     display: block;
     margin: 0 auto;
-  }
+}
 
 .linguagem-pro{
     display: flex;
@@ -137,7 +132,7 @@ section.topo-do-site .flex{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 20px;
-   
+
 }
 
 .linguagem-pro span{
@@ -147,7 +142,6 @@ section.topo-do-site .flex{
     line-height: 2;
     font-size: 20px;
 }
-
 
 .linguagem-pro-js, .linguagem-pro-bi{
     color: white;
@@ -194,4 +188,62 @@ section.topo-do-site .flex{
 .linguagem-pro-css span{
     color: aqua;
     line-height: 2;
+}
+
+/*Responsividade*/
+
+
+/* Intervalo entre 390px e 932px */
+@media (min-width: 360px) and (max-width: 932px) {
+    header nav ul li {
+        padding: 0 20px;
+        font-size: 30px;
+    }
+
+    .menu-desktop{ /*JUSTANDO O MENU DE NAVEGAÇÃO*/
+        margin-top: 25px;
+    }
+
+    a {
+        text-decoration: none !important; /* Garante que o sublinhado será removido */
+        color: none; /* Cor do link */
+    }
+
+    .conhecimentos-imagens{
+    display: flex;
+    flex-wrap: wrap;  /* Permite a quebra de linha */
+    justify-content: center; /* Centraliza as colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    max-width: 100%; /* Evita que os elementos ultrapassem a tela */
+    }
+
+
+    .interface{
+        display:grid
+
+    }
+    .topo-do-site{
+        display: flex;
+        max-width: 932px;
+        margin: 0%;
+        align-items: center;
+        
+    }
+
+    .txt-topo-site,h1{ /*TEXTO PROJETOS*/
+        margin-top: 10%;
+        align-items: center;
+    }
+
+    .flex{
+        margin-left: 0%;
+        align-items: center;
+    }
+
+    .btn-contato1{
+        display: none;
+    }
+    .btn-contato2{
+        text-align: center;
+    }
 }
