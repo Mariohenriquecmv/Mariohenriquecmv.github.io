@@ -400,8 +400,7 @@ section.especialidades .flex{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 45vh;
-        
+        width: 100%;
         
     }
 
