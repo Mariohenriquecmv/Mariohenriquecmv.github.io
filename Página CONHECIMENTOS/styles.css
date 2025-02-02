@@ -194,7 +194,7 @@ margin-top: 100%;
 
 
 /* Intervalo entre 390px e 932px */
-@media (min-width: 360px) and (max-width: 932px) {
+@media (min-width: 344px) and (max-width: 932px) {
     header nav ul li {
         padding: 0 20px;
         font-size: 30px;
@@ -219,7 +219,7 @@ margin-top: 100%;
 
 
     .interface{
-        display:grid
+        display:flex;
 
     }
     .topo-do-site{
