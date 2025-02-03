@@ -115,10 +115,16 @@ section.topo-do-site .flex{
     font-size: 30px;
     text-align: center;
     line-height: 5.0;
-    margin-top: -100px;
+    margin-top: -120px;
 
 }
 
+h2{
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10%;
+}
 
 /* ICONES DE FERRAMENTAS E LINGUAGENS*/
 
