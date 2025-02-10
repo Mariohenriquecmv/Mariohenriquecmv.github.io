@@ -171,6 +171,7 @@ margin-top: 100%;
     line-height: 2;
 }
 
+
 .linguagem-pro-html, .linguagem-pro-css img{
     margin-top: -10px;
 }
@@ -188,6 +189,21 @@ margin-top: 100%;
 .linguagem-pro-css span{
     color: aqua;
     line-height: 2;
+}
+
+.linguagem-pro-node p{
+    color: white;
+    text-align: center;
+    margin-top: 85px;
+    font-size: 20px;
+}
+
+.linguagem-pro-node span{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
 }
 
 /*Responsividade*/
